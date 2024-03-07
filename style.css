@@ -2,26 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #85816a;
 }
+
 h1 {
     background-color: #c34c34;
     text-shadow: 5px 5px 5px #551e0a;
     font-size: 50px;
-    text-align: center;
-    padding: 10px;
-    border: 10px solid ;
-    border-color: #1e1811;
-    border-bottom-left-radius: 50% ;
-    border-bottom-right-radius: 50% ;
-    border-bottom: 20px solid #1e1811;
+    text-align:start ;
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
+    position: relative;
+    z-index: -1;
 }
 
 nav {
-    background-color: #85816a;
     float:inline-end;
 }
 
@@ -33,21 +28,28 @@ nav a {
     font-style: normal;
     padding: 10px 10px 10px;
     border: 3px solid #db9233;
-    border-radius: 50px;
+    border-radius: 5px;
     text-decoration: none;
-    font-size: 20px;
-    position: relative;  
-    top: 10px;
+    font-size: 20px; 
+    position: relative;     
+    bottom: 1rem;
 }
 
 .fotoprincipal {
     width: 100%;
     height: 450px;
     border: 2px solid #1e1811;
+    position: relative;
+    bottom: 1.5rem;
+    z-index: -1;
+
 }    
     
 nav a:hover {
-    padding: 12px;
+    padding: 1.5rem;
+    transition: 0.1s linear;
+    border-color: black;
+    color: #1691d8 ;
 }
 
 nav a[href="#"] {
@@ -55,4 +57,111 @@ nav a[href="#"] {
     color: #1e1811;
 }
 
+body {
+    background-color: #5ba39b;
+}
 
+.subtittle {
+    background-color: #c34c34;
+    text-shadow: 5px 5px 5px #551e0a;
+    font-size: 30px;
+    text-align: center;
+    border: 8px solid ;
+    border-color: #1e1811;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    bottom: 2rem;
+}
+
+#indexArticle {
+    display: inline-block;
+    width: 33%;
+    border: #c34c34 0.5rem solid; 
+    padding: 10px;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    background-color: #fbe32c;
+    position: relative;
+    bottom: 18.45rem;
+}
+
+.logomightyducks {
+    display: inline-block;
+    width: 33%;
+    border: 0.5rem solid #c34c34;
+    background-color: white;
+}
+
+.hockey1 {
+    display: inline-block;
+    width: 33%;
+    height: 27.95rem;
+    border: 0.5rem solid #c34c34;
+}  
+
+#articleAbout {
+    display: inline-block;
+    width: 33%;
+    border: #c34c34 0.5rem solid; 
+    padding: 10px;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    background-color: #fbe32c;
+    position: relative;
+}
+
+.logomightyducksAbout {
+    display: inline-block;
+    width: 33%;
+    height: 25rem;
+    border: 0.5rem solid #c34c34;
+    background-color: white;
+    position: relative;
+    bottom: 8.1rem;
+}
+
+.hockey1About {
+    display: inline-block;
+    height: 25rem;
+    width: 33%;
+    border: 0.5rem solid #c34c34;
+    position: relative;
+    bottom: 8.1rem;
+}
+
+#contactInfo{
+    display: inline-block;
+    width: 33%;
+    border: #c34c34 0.5rem solid; 
+    padding: 10px;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    background-color: #fbe32c;
+    position: relative;
+    bottom: 19.4rem;
+
+}
+
+.hockey1Contact{
+    display: inline-block;
+    width: 33%;
+    height: 25rem;
+    border: 0.5rem solid #c34c34;
+}
+
+.logomightyducksContact {
+    display: inline-block;
+    width: 33%;
+    height: 25rem;
+    border: 0.5rem solid #c34c34;
+    background-color: white;
+}
+
+footer {
+    background-color: #85816a;
+    text-align: center;
+    border: 0.5rem solid #c34c34;
+    border-top: 0.5rem solid #c34c34;
+}
