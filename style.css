@@ -14,7 +14,12 @@ h1 {
     font-style: normal;
     position: relative;
     z-index: -1;
+    
 }
+
+.logo { 
+    display: none;
+}   
 
 nav {
     float:inline-end;
@@ -94,7 +99,7 @@ body {
     background-color: white;
 }
 
-.hockey1 {
+#hockey1 {
     display: inline-block;
     width: 33%;
     height: 27.95rem;
