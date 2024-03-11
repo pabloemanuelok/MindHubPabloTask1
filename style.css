@@ -142,7 +142,6 @@ article {
 }
 
 .los-H3 {
-    display: flex;
     text-align: center;
     border: 10px solid #233932;
     /* border-radius: 20px; */
@@ -185,3 +184,15 @@ header img:hover{
     cursor: pointer;
 }
 
+/* Footer */
+
+footer {
+    background-color: #233932;
+    color: var(--Blanco);
+    text-align: center;
+    padding: 0.2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* border-top: 2px solid var(--VerdeMarino); */
+}
