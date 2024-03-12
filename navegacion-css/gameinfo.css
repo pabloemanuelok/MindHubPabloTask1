@@ -120,9 +120,6 @@ h2 {
     /* background-color: #ae1f2657;
     border: 10px solid #23393241; */
     color: #fff074;
-    border: 10px solid #233932;
-    border-left: 0;
-    border-right: 0;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -155,9 +152,6 @@ section h3 {
 section>p {
     width: 100%;
     color: rgb(160, 160, 160) ;
-    border: 10px solid #233932;
-    border-left: 0;
-    border-right: 0;
     padding: 10px;
     text-align: center;
     text-decoration: underline;
@@ -247,9 +241,21 @@ footer strong {
 
 footer div {
     width: 100%;
-    padding: 10px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     gap: 2rem;
     font-size: 20px;
+}
+
+footer .footerFijo{
+    background-color: #233932;
+    color: var(--Blanco);
+    text-align: center;
+    padding: 0.2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4vh;
+    font-family: "Bebas Neue", sans-serif; 
 }
