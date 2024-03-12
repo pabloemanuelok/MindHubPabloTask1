@@ -10,12 +10,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif ;
+    font-family: "Bebas Neue", sans-serif;
     /* background-color: var(--Celeste); */
     /* outline: 1px solid red; */
     
 }
-
 
 /* header Css */
 
@@ -44,6 +43,7 @@ header h1 {
     flex-grow: 1;
     font-size: 2rem;
     background-color: #ae1f27;
+    font-family: sans-serif ;
 }
 
 header img {
@@ -81,6 +81,8 @@ nav a {
     
  }
 
+
+
  /*Animaciones */
 
  nav a:hover {
@@ -92,4 +94,60 @@ nav a {
 header img:hover{
     transform: scale(1.1);
     cursor: pointer;
+}
+
+main {
+    background-image: url(../assets/design1_image2.jpg);
+    background-size: cover;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.801));
+    
+}
+
+.containerRules {
+    width: 70%;
+    background-color: #fff074;
+    border: 10px solid #233932;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.containerRules article {
+    text-align: start;
+    padding: 2rem;
+}
+
+
+
+
+footer {
+    background-color: #233932;
+    color: var(--Blanco);
+    text-align: center;
+    padding: 0.2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4vh;
+    /* border-top: 2px solid var(--VerdeMarino); */
+}
+
+article {
+    font-size: 20px;
+}
+
+article .sublista {
+    padding: 10px;
+    font-size: 15px;
+    list-style: lower-alpha;
+}
+
+article .sublista2 {
+    padding: 10px;
+    font-size: 15px;
 }
