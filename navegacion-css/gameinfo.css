@@ -149,7 +149,14 @@ section h3 {
     font-size: 30px;
 }
 
-section>p {
+article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article>h2 {
     width: 100%;
     color: rgb(160, 160, 160) ;
     padding: 10px;
@@ -160,12 +167,7 @@ section>p {
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-}
-
-article {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.322));
 
 }
 

@@ -113,7 +113,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: baseline;
+    
 }
 
 article {
@@ -125,6 +125,10 @@ article {
     background-position: center;
     background-repeat: no-repeat;
 
+}
+
+article h2 {
+    display: none;
 }
 
 .container h2{
