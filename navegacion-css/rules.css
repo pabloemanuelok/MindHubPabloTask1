@@ -84,6 +84,12 @@ nav a {
 
 
  /*Animaciones */
+ nav a[href="#"] {
+    transform: scale(1.4);
+    color: #ae1f27;
+    border-color: #fff074;
+ }
+ 
 
  nav a:hover {
     transform: scale(1.2);
