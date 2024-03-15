@@ -78,39 +78,24 @@ nav a {
     
  }
 
- body {
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     background-image: url(../assets/design1_image2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
  }
 
-main {
+
+h2 {
     width: 100%;
-    display: flex;
-}
-
-
-main div {
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.801));
-}
-
-section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 5rem;
-}
-
-section h2 {
-    width: 100%;
-    color: #fff074;
+    color: #233932;
     text-align: center;
-    border: none;
-    border-bottom: 10px solid #233932;
     padding: 1rem;
     margin-bottom: 2rem;
+    border-bottom: 20px solid #233932;
     font-size: 2rem;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -118,22 +103,61 @@ section h2 {
 
 }
 
-form {
-    padding: 2rem;
-}
-
-article {
-    padding: 2rem;
+.opacity {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.801));
     display: flex;
-    border: 10px solid #233932;
-    background-color: #fff074;
-    width: 70%;
-    height: 70%;
-    font-family: "Bebas Neue", sans-serif;
-    font-style: normal;
-    font-size: 20px;
+    justify-content: center;
+
 }
 
+.container {
+    max-width: 600px;
+    margin: 2rem;
+    padding: 20px;
+    border: 10px solid #233932;
+    border-radius: 5px;
+    background-color: #fff074;
+
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    padding: 3px;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  button {
+    background-color: #ae1f27;
+    color: white;
+  }
+
+.questions {
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal ;
+
+}
 nav a[href="#"] {
     transform: scale(1.4);
     color: #ae1f27;
